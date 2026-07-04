@@ -1,0 +1,1 @@
+cat: /tmp/clean-repo/bot.py: No such file or directory
