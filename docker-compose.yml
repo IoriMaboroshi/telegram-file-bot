@@ -1,0 +1,10 @@
+services:
+  file-bot:
+    build: .
+    container_name: file-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    working_dir: /app
